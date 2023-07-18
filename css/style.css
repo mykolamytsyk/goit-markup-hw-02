@@ -9,6 +9,20 @@ body {
   list-style-type: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .header-logo {
   color: var(--navyblue, #2e2f42);
   font-family: Raleway;
@@ -46,11 +60,19 @@ body {
 }
 .hero-button {
   color: var(--white, #fff);
-
-  /* Button Text */
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04; /* 0.64px/16 */
+}
+
+.Peculiarities-list {
+}
+
+.Peculiarities-item {
+}
+.Peculiarities-name {
+}
+.Peculiarities-text {
 }
