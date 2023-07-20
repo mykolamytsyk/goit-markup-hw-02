@@ -80,7 +80,9 @@ body {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
+  text-align: center;
 }
+
 .hero-button {
   background: var(--iris, #4d5ae5);
   color: var(--white, #fff);
@@ -115,7 +117,7 @@ body {
   color: var(--slate, #434455);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5x; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02em; /* 0.32px/16 */
 }
 
@@ -141,46 +143,43 @@ body {
 .products-item {
 } */
 
-/* ----------Team--------- */
+/* ----------team--------- */
 
-.Team {
+.team {
   background: var(--cloud, #f4f4fd);
 }
-.Team-title {
+.team-title {
   color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11x; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em; /* 0.72px/36 */
   text-transform: capitalize;
 }
 /* }
-.Team-list {
+.team-list {
 }
 .list {
 }
-.Team-item {
+.team-item {
 } */
-.Team-names {
+.team-names {
   color: var(--navyblue, #2e2f42);
-
-  /* Header 3 */
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2x; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.02em; /* 0.4px/20 */
 
   background: var(--white, #fff);
 }
-.Team-professions {
+.team-professions {
   color: var(--slate, #434455);
-
-  /* Body */
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.02; /* 0.32px/16 */
-
+  letter-spacing: 0.02em; /* 0.32px/16 */
   background: var(--white, #fff);
 }
 
