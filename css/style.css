@@ -1,11 +1,31 @@
+:root {
+  /* Fonts */
+  --main-font: "Roboto", sans-serif;
+  --accent-font: "Raleway", sans-serif;
+  /* Colors */
+  --main-cl: #434455;
+  --accent-cl: #4d5ae5;
+  --ocean-cl: #404bbf;
+  --navy-blue-cl: #2e2f42;
+  --green-cl: #31d0aa;
+  --light-slate-cl: #8e8f99;
+  --cornflower-cl: #e7e9fc;
+  --cloud-cl: #f4f4fd;
+  --navy-blue-modal-cl: #2e2f42;
+  --grey-cl: #2e2f42;
+  --white-cl: #ffffff;
+  --dairy-cl: #fcfcfc;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   background: #fff;
-  color: #434455;
+  color: var(--main-cl);
 }
 
 .link {
   text-decoration: none;
+  color: currentColor;
 }
 .list {
   list-style-type: none;
@@ -25,7 +45,7 @@ body {
 } */
 
 .header-logo {
-  color: var(--navyblue, #4d5ae5);
+  color: var(--accent-cl);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -84,7 +104,7 @@ body {
 }
 
 .hero-button {
-  background: var(--iris, #4d5ae5);
+  background: var(--accent-cl);
   color: var(--white, #fff);
   font-family: inherit;
   font-size: 16px;
@@ -190,7 +210,7 @@ body {
   background: var(--navyblue, #2e2f42);
 }
 .footer-logo {
-  color: var(--cloud, #4d5ae5);
+  color: var(--accent-cl);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -226,7 +246,7 @@ body {
 
 .menu-button {
   background: var(--cloud, #f4f4fd);
-  color: var(--iris, #4d5ae5);
+  color: var(--accent-cl);
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
