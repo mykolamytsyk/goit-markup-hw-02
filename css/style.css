@@ -154,7 +154,7 @@ body {
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em; /* 0.72px/36 */
-  /* text-transform: capitalize; */
+  text-transform: capitalize;
 }
 /* .products-list {
 }
@@ -176,7 +176,7 @@ body {
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em; /* 0.72px/36 */
-  /* text-transform: capitalize; */
+  text-transform: capitalize;
 }
 /* .team-list {
 }
@@ -216,7 +216,7 @@ body {
   font-weight: 800;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /* 0.54px/18 */
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .footer-logo-color {
