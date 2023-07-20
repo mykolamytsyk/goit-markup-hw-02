@@ -158,13 +158,14 @@ body {
   letter-spacing: 0.02em; /* 0.72px/36 */
   text-transform: capitalize;
 }
-/* }
-.team-list {
+/* .team-list {
 }
 .list {
-}
-.team-item {
 } */
+.team-item {
+  background: var(--white, #fff);
+}
+
 .team-names {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
