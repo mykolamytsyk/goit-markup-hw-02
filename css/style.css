@@ -263,7 +263,7 @@ body {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2x; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.02em; /* 0.4px/20 */
 }
 .structure-text {
@@ -273,4 +273,7 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em; /* 0.32px/16 */
+}
+.structure-link {
+  text-decoration: none;
 }
