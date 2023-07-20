@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: #fff;
+  color: #434455;
 }
 
 .link {
@@ -24,7 +25,7 @@ body {
 }
 
 .header-logo {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -34,7 +35,7 @@ body {
 }
 
 .header-logo-color {
-  color: var(--iris, #4d5ae5);
+  color: var(--iris, #2e2f42);
 }
 
 .header-menu-link {
@@ -50,13 +51,16 @@ body {
 .header-menu-link:focus {
   color: var(--ocean, #404bbf);
 }
+
+.header-address {
+  font-style: normal;
+}
 .header-address-link {
   color: var(--slate, #434455);
 
   /* Body */
   font-family: "Roboto";
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em; /* 0.32px/16 */
@@ -85,6 +89,7 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em; /* 0.64px/16 */
+  cursor: pointer;
 }
 
 .hero-button:hover,
