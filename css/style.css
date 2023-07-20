@@ -223,7 +223,7 @@ body {
 /* .Menu-item {
 } */
 
-.Menu-button {
+.menu-button {
   background: var(--cloud, #f4f4fd);
   color: var(--iris, #4d5ae5);
   text-align: center;
@@ -237,12 +237,11 @@ body {
   letter-spacing: 0.04; /* 0.64px/16 */
 }
 
-.Menu-button:hover,
-.Menu-button:focus {
+.menu-button:hover,
+.menu-button:focus {
   background: var(--ocean, #404bbf);
   color: var(--white, #fff);
   text-align: center;
-  /* Button Text */
   font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
@@ -260,14 +259,14 @@ body {
 
 /* .Structure-item {
 } */
-.Structure-subtitle {
+.structure-subtitle {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2x; /* 120% */
   letter-spacing: 0.02em; /* 0.4px/20 */
 }
-.Structure-text {
+.structure-text {
   color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
