@@ -154,7 +154,7 @@ body {
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em; /* 0.72px/36 */
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 /* .products-list {
 }
@@ -176,7 +176,7 @@ body {
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em; /* 0.72px/36 */
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 /* .team-list {
 }
@@ -247,7 +247,7 @@ body {
 .menu-button {
   background: var(--cloud, #f4f4fd);
   color: var(--accent-cl);
-  text-align: center;
+  /* text-align: center; */
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -261,7 +261,7 @@ body {
 .menu-button:focus {
   background: var(--ocean, #404bbf);
   color: var(--white, #fff);
-  text-align: center;
+  /* text-align: center; */
   font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
